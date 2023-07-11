@@ -1,0 +1,98 @@
+
+
+html {
+    width: 100%;
+
+ }
+
+body {   
+    font-size: 18;
+    color: #ffffffe9;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding:0;
+}
+
+.about {
+    display: flex;
+    margin-bottom: 2rem; 
+    justify-content: center;
+    text-align: center;
+    flex-direction: column; 
+}
+
+.container {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 3px;   
+}
+
+.menu {
+    flex: 1;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.drinks h3 {
+    padding-top: 20px;
+    color: bisque;
+    border-bottom-style: none;
+    
+}
+
+.pricing  {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 38% 20px 38%;
+    gap: 3px;
+}
+
+h1 {
+    color: rgb(254, 150, 53);
+    margin-bottom: 2rem;
+    font-size: 4rem; 
+}
+
+
+h3 {
+    color: rgb(254, 150, 53);
+    text-align: center;
+    border-bottom: solid 2px;
+    border-radius: 10px;
+    bottom: 10px;
+ }
+ h4 {
+    color: bisque;
+    border-bottom: solid 2px;
+    bottom: 10px;
+    border-radius: 20px;
+
+ }
+
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: 20px;
+}
+
+#bbqimg {
+    position: fixed;
+    display: block;
+    width: 100%;
+    z-index:-1;
+    filter: brightness(30%);
+}
